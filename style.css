@@ -7,6 +7,17 @@ body{
     background: hsl(0, 0%, 95%);
 
 }
+@media screen and (max-width: 600px) {
+    body{
+        background-color: rgb(255, 0, 55);
+        width: 600px;
+        margin-top: 100px;
+    }
+    .calculator{
+       width: 500px;
+    }
+    
+}
 .calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 15%);
@@ -57,3 +68,4 @@ button:active{
 
 
 }
+
